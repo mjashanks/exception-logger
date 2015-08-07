@@ -1,4 +1,4 @@
-﻿module exception-logger.AssemblyInfo
+﻿module ``exception-logger``.AssemblyInfo
 open System.Reflection
 open System.Runtime.CompilerServices
 

@@ -33,13 +33,15 @@
     <Reference Include="fszmq">
       <HintPath>..\packages\fszmq.12.1.0\lib\net40\fszmq.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Text">
-      <HintPath>..\packages\ServiceStack.Text.3.9.71\lib\net35\ServiceStack.Text.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Messages.fs" />
+    <Compile Include="MessageHandlers.fs" />
     <Compile Include="MessageHandling.fs" />
+    <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.1\Framework\v4.0\Microsoft.FSharp.Targets" />

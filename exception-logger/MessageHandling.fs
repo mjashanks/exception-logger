@@ -1,20 +1,16 @@
 ﻿namespace MessageHandling
 
-module Messages=
-    type ExceptionLog = {
-        messsage: string;
-        stackTrace: string
-    }
-
-    type Message = 
-        | ExceptionLog of ExceptionLog
+open ExLog.Messages
+open Newtonsoft.Json
+open ExLog.Handlers
 
 module Handling=
-    open Messages
 
-    let logToErrBit exLog=
-        ()
-
-    let Handle msg=
+    let DeserializeJson msgJson : Message=
+        JsonConvert.DeserializeObject<Message>(msgJson)
+    
+    let Handle msgJson=
+        let msg = msgJson |> DeserializeJson
         match msg with
-        | ExceptionLog el -> logToErrBit el
+        | ExceptionLog el -> ErrBit el
+        | Text str -> Text str
