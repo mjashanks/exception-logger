@@ -1,1 +1,15 @@
-﻿<Properties StartupItem="exception-logger/exception-logger.fsproj" />
+﻿<Properties StartupItem="exception-logger/exception-logger.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExLog.Client/Component1.fs">
+    <Files>
+      <File FileName="exception-logger/Messages.fs" Line="1" Column="1" />
+      <File FileName="exception-logger/MessageHandlers.fs" Line="10" Column="21" />
+      <File FileName="exception-logger/Program.fs" Line="18" Column="32" />
+      <File FileName="ExLog.Client/Component1.fs" Line="8" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

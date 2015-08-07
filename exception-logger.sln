@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "exception-logger", "exception-logger\exception-logger.fsproj", "{54D24F6B-3631-47CF-8ECB-0EF417DD026E}"
 EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "ExLog.Client", "ExLog.Client\ExLog.Client.fsproj", "{8422732F-BC1A-46E0-857E-A4238EB5F61B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{54D24F6B-3631-47CF-8ECB-0EF417DD026E}.Debug|x86.Build.0 = Debug|x86
 		{54D24F6B-3631-47CF-8ECB-0EF417DD026E}.Release|x86.ActiveCfg = Release|x86
 		{54D24F6B-3631-47CF-8ECB-0EF417DD026E}.Release|x86.Build.0 = Release|x86
+		{8422732F-BC1A-46E0-857E-A4238EB5F61B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8422732F-BC1A-46E0-857E-A4238EB5F61B}.Debug|x86.Build.0 = Debug|Any CPU
+		{8422732F-BC1A-46E0-857E-A4238EB5F61B}.Release|x86.ActiveCfg = Release|Any CPU
+		{8422732F-BC1A-46E0-857E-A4238EB5F61B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

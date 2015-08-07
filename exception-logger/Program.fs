@@ -15,6 +15,8 @@ module start=
       use responder = Context.pull context
       Socket.bind responder "tcp://*:5555"
 
+      printfn "listenting on tcp://*:5555"
+
       while true do
         let _buffer = Socket.recv responder
         let messageJson = Encoding.UTF8.GetString(_buffer)
