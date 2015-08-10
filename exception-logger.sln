@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "exception-logger", "exception-logger\exception-logger.fsproj", "{54D24F6B-3631-47CF-8ECB-0EF417DD026E}"
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ExLog", "exception-logger\ExLog.fsproj", "{54D24F6B-3631-47CF-8ECB-0EF417DD026E}"
 EndProject
-Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "ExLog.Client", "ExLog.Client\ExLog.Client.fsproj", "{8422732F-BC1A-46E0-857E-A4238EB5F61B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ExLog.Client", "ExLog.Client\ExLog.Client.fsproj", "{8422732F-BC1A-46E0-857E-A4238EB5F61B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +21,8 @@ Global
 		{8422732F-BC1A-46E0-857E-A4238EB5F61B}.Debug|x86.Build.0 = Debug|Any CPU
 		{8422732F-BC1A-46E0-857E-A4238EB5F61B}.Release|x86.ActiveCfg = Release|Any CPU
 		{8422732F-BC1A-46E0-857E-A4238EB5F61B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
